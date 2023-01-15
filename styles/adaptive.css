@@ -1,0 +1,268 @@
+/* for 1280px */
+@media (max-width: 1083px) {
+    .blocks {
+        max-width: 900px;
+    }
+}
+/* for 1024px */
+@media (max-width: 1030px) {
+    .blocks {
+        max-width: 850px;
+    }
+}
+/* for 912px */
+@media (max-width: 920px) {
+    .blocks {
+        max-width: 800px;
+    }
+    .tarot-main-text-subtitle {
+        font-size: 15px;
+        text-align: left;
+    }
+    .tarot-main-text-title {
+        font-size: 70px;
+        margin-top: 13px;
+    }
+    .tarot-main-text-block {
+        row-gap: 21px;
+    }
+    .view-more {
+        width: 40%;
+        height: 60%;
+        margin-bottom: 10%;
+    }
+    .footer-text,  .header-text{
+        color: rgb(150, 150, 150);
+        font-size: 14px;
+    }
+}
+/* for 820px*/ 
+@media(max-width: 820px) {
+    .blocks {
+        max-width: 700px;
+    }
+    .header-title {
+        font-size: 30px;
+    }
+    .tarot-main-text-subtitle {
+        font-size: 15px;
+        text-align: left;
+    }
+    .tarot-main-text-title {
+        font-size: 55px;
+        margin-top: 10px;
+    }
+    .tarot-main-text-block-text {
+        row-gap: 20px;
+    }
+    .view-more {
+        width: 40%;
+        height: 30%;
+        margin-bottom: 10%;
+    }
+    .tarot-use-text .tarot-use-text-title {
+        font-size: 35px;
+        font-weight: 400;
+    }
+    .tarot-gallery-img:hover .tarot-gallery-img-text {
+        opacity: 1;
+    }
+    .tarot-gallery-img-text .tarot-gallery-img-text-title {
+        font-size: 25px;
+        font-weight: 500;
+    }
+    .tarot-gallery-buttonts-container {
+        display: flex;
+        justify-content: space-between;
+        margin: 20px 20px;
+    }
+    :is(.learn-more, .purchase) {
+        border: 1px solid white;
+        padding: 10px 20px;
+        transition: all .2s linear;
+    }
+    .tarot-other {
+        padding: 10% 0;
+    }
+    .block-columns {
+        display: flex;
+        justify-content: space-between;
+    }
+    .elements-title {
+        font-size: 18px;
+        margin: 10px 0;
+    }
+    .elements-element {
+        font-size: 15px;
+        color: rgb(150, 150, 150);
+        margin: 13px 0;
+    }
+}
+/* for 540px*/
+@media(max-width: 710px) {
+
+    .blocks {
+        max-width: 400px;
+    }
+    .header-title {
+        font-size: 15px;
+    }
+    .nav-links {
+        font-size: 8px;
+    }
+    .tarot-main-text-subtitle {
+        font-size: 14px;
+        text-align: left;
+    }
+    .tarot-main-text {
+        margin: 0 auto;
+    }
+    .tarot-main-text-title {
+        font-size: 40px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+  
+    }
+    .tarot-main-text-block-text {
+        row-gap: 10px;
+        font-size: 12px;
+        
+    } 
+    .view-more {
+        margin: 0;
+        width: 40%;
+        font-size: 15px;
+
+    }
+    .tarot-main-log img {
+        display: none;
+    }
+    .tarot-use-text .tarot-use-text-title {
+        font-size: 30px;
+        font-weight: 200;
+    }
+    .tarot-pictures-and-descriptions {
+        display: flex;
+        flex-direction: column;
+        gap: 26%;
+    }
+    .read-more-link {
+        margin-bottom: 10%;
+    }
+    .tarot-gallery {
+        display: flex;
+        flex-direction: column;
+        gap: 10%;
+    }
+    .tarot-other {
+        padding: 10% 0;
+    }
+    .block-columns {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .elements-title {
+        font-size: 15px;
+        margin: 9px 0;
+    }
+    .elements-element {
+        font-size: 11px;
+        color: rgb(150, 150, 150);
+        margin: 9px 0;
+    }
+    .footer .blocks {
+        display: flex;
+        flex-direction: column;
+        padding: 20px 0;
+    }
+    .footer-text {
+        color: rgb(150, 150, 150);
+        font-size: 9.5px;
+        text-align: center;
+    }
+    .header-text{
+        color: rgb(150, 150, 150);
+        font-size: 9.5px;
+    }
+    .footer-icons {
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer-icon a img {
+        width: 80%;
+        height: auto;
+    }
+    .footer-icon {
+        margin: 0 10px;
+    }
+}
+/* for 320 px */
+@media(max-width: 420px) {
+    .container {
+        max-width: 300px;
+    }
+    .nav-links {
+        font-size: 4px;
+    }
+    .header-title {
+        font-size: 12px;
+    }
+    .view-more {
+        text-align: center;
+        font-size: 8px;
+        width: 25%;
+        margin-bottom: 6%;
+    }
+    .tarot-use-text .tarot-use-text-title {
+        font-size: 30px;
+        font-weight: 200;
+    }
+    .description-title {
+        font-size: 14px;
+    }
+    .description-text {
+        font-size: 10px;
+    }
+    .read-more-link {
+        font-size: 10px;
+    }
+    :is(.tarot-picture .picture) img,
+    .gallery-img {
+        width: 70%;
+        height: auto;
+    }
+    .tarot-pictures-and-descriptions {
+        display: flex;
+        flex-direction: column;
+        gap: 26%;
+    }
+
+    .read-more-link {
+        margin-bottom: 10%;
+    }
+
+
+    .tarot-gallery {
+        display: flex;
+        flex-direction: column;
+        gap: 10%;
+    }
+
+    .tarot-use-text .tarot-use-text-text {
+        font-size: 10px;
+    }
+
+    .tarot-gallery-img-text .tarot-gallery-img-text-title {
+        font-size: 15px;
+    }
+
+    .tarot-gallery-buttonts-container {
+        justify-content: space-around;
+    }
+
+    .tarot-gallery-buttonts-container div {
+        font-size: 10px;
+        padding: 2px 5px;
+    }
+}
